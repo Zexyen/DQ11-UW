@@ -19,10 +19,11 @@ Removes the black bars at 21:9 (and any other aspect wider than 16:9). The view 
    (untested).
 
 The HUD, menus and dialogue stay a centred 16:9 block; the 3D view fills the screen.
+World-anchored icons (talk bubbles, door prompts) stay on whatever they point at.
 
 ## Uninstall
 Run it again; it toggles the patch off and restores the original bytes.
 Steam's "Verify integrity of game files" also undoes it.
 
-It edits about 160 bytes of `Game/Binaries/Win64/DRAGON QUEST XI.exe` and refuses to touch an
+It edits about 520 bytes of `Game/Binaries/Win64/DRAGON QUEST XI.exe` and refuses to touch an
 exe it does not recognise.
