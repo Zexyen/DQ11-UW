@@ -18,12 +18,18 @@ Removes the black bars at 21:9 (and any other aspect wider than 16:9). The view 
    `Documents\My Games\DRAGON QUEST XI\Saved\Config\WindowsNoEditor\GameUserSettings.ini`
    (untested).
 
-The HUD, menus and dialogue stay a centred 16:9 block; the 3D view fills the screen.
-World-anchored icons (talk bubbles, door prompts) stay on whatever they point at.
+What you get:
+- The 3D view fills the screen.
+- The in-game HUD, minimap and battle UI use the full width, and so do screen and loading fades.
+- Dialogue and quest boxes are centred.
+- Title and main menus, the map menu, loading screens and pre-rendered videos stay a centred,
+  unstretched 16:9 block.
+
+Already patched with an older version? Just run the new one, it upgrades the exe in place.
 
 ## Uninstall
 Run it again; it toggles the patch off and restores the original bytes.
 Steam's "Verify integrity of game files" also undoes it.
 
-It edits about 520 bytes of `Game/Binaries/Win64/DRAGON QUEST XI.exe` and refuses to touch an
+It edits about 1,300 bytes of `Game/Binaries/Win64/DRAGON QUEST XI.exe` and refuses to touch an
 exe it does not recognise.
